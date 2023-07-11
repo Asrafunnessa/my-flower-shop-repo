@@ -1,7 +1,8 @@
-/*banner design*/
+/*banner section design*/
 .header{
     background-color: hsl(343, 58%, 95%);
-
+    flex-shrink: 0;
+    border-radius:0px;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -10,16 +11,22 @@
     justify-content: space-between;
 }
 .banner-title{
-   font-family: 'Open Sans', sans-serif;
-    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 0px;
 }
 .banner-description{
     color: rgb(141, 141, 141);
+     font-family: Lato;
+     font-style: normal;
+     font-weight: 400;
 }
 .banner .first-pic{
     width: 500px;
+}
+.banner-content{
+    max-width: 500px;
 }
 .btn-primary{
     border-radius: 12px;
@@ -29,4 +36,60 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+/*section Design*/
+
+.section-title{
+    font-family: 'Open Sans', sans-serif;
+    color: #181818;
+    /*font-family: Lato;*/
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+     font-weight: 700;
+     margin-top: 115px;
+     margin-bottom: 0px;
+}
+.section-description{
+    color: rgb(141, 141, 141);
+    font-family: Lato;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+.section-info-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.info-title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.section-img-1{
+background-color: rgb(238, 231, 238);
+border-radius: 800px 800px 0px 0px;
+width: 310px;
+height: 428px;
+padding: 100px 60px 0px 60px;
+}
+.section-img-2{
+background-color: rgb(224, 235, 235);
+width: 310px;
+height: 428px;
+border-radius: 800px 800px 0px 0px;
+padding: 100px 60px 0px 60px;
+}
+.section-img-3{
+ background-color: rgb(240, 235, 235);
+width: 310px;
+height: 428px;
+border-radius: 800px 800px 0px 0px;
+padding: 100px 60px 0px 60px;
 }
