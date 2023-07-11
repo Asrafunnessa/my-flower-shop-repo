@@ -1,6 +1,8 @@
 /*banner section design*/
 .header{
-    background-color: hsl(343, 58%, 95%);
+   background-color: hsl(343, 58%, 95%);
+   background-position: bottom right top left ;
+   background-size:auto;
     flex-shrink: 0;
     border-radius:0px;
 }
@@ -92,4 +94,35 @@ width: 310px;
 height: 428px;
 border-radius: 800px 800px 0px 0px;
 padding: 100px 60px 0px 60px;
+}
+
+/*second section Design*/
+.second-featured{
+ width:800px;
+ /*margin:auto;*/
+ display: flex;
+ padding: 130px;  
+ border-radius: 10px;
+ margin:130px 0;
+}
+.second-section-info-container{
+    background: rgb(248, 246, 246);
+    background-size: 500px 400px;
+    padding: 25px;
+    margin: 130px 80px 80px 80px;
+    border: 2px solid rgb(248, 246, 246);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.second-section-info{
+    margin-top: 80px;
+    text-align: center;
+
+}
+.second-info-title{
+    color: rgb(61, 50, 50);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
 }
