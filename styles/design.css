@@ -1,8 +1,6 @@
 /*banner section design*/
 .header{
    background-color: hsl(343, 58%, 95%);
-   background-position: bottom right top left ;
-   background-size:auto;
     flex-shrink: 0;
     border-radius:0px;
 }
@@ -42,10 +40,10 @@
 
 /*section Design*/
 
+/*our featured flower section design*/
 .section-title{
     font-family: 'Open Sans', sans-serif;
     color: #181818;
-    /*font-family: Lato;*/
     text-align: center;
     font-size: 35px;
     font-style: normal;
@@ -96,10 +94,11 @@ border-radius: 800px 800px 0px 0px;
 padding: 100px 60px 0px 60px;
 }
 
-/*second section Design*/
+/*delivery section design*/
+
 .second-featured{
  width:800px;
- /*margin:auto;*/
+ margin: auto;
  display: flex;
  padding: 130px;  
  border-radius: 10px;
@@ -126,3 +125,101 @@ padding: 100px 60px 0px 60px;
     font-style: normal;
     font-weight: 400;
 }
+
+/*hot deal section design*/
+
+.third-featured{
+width:800px;
+ margin: auto;
+ display: flex;
+ padding: 130px;  
+ border-radius: 10px;
+ margin:130px 0;
+}
+.third-section-info-container{
+    background: rgb(248, 246, 246);
+    padding: 100px 60px 0px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.hot-content{
+    max-width: 500px; 
+    text-align: center; 
+}
+.second-pic{
+    width: 300px;
+    height: 380px;
+    margin-top: 0px;
+    flex-shrink: 0;
+}
+.hot-title{
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hot-description{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sec{
+    color: hsl(347, 74%, 61%);
+}
+
+/*instragram design*/
+
+.instragram-title{
+    font-family: 'Open Sans', sans-serif;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+     font-weight: 700;
+     margin-top: 115px;
+     margin-bottom: 0px;
+}
+.instragram-description{
+    color: rgb(141, 141, 141);
+    font-family: Lato;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+.instragram-info-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.instragram-img-1{
+width: 342px;
+height: 396px;
+flex-shrink: 0;
+}
+.instragram-img-2{
+width: 342px;
+height: 396px;
+flex-shrink: 0;
+}
+.instragram-img-3{
+width: 342px;
+height: 396px;
+flex-shrink: 0;
+}
+.instragram-img-4{
+width: 342px;
+height: 396px;
+flex-shrink: 0;
+}   
+
