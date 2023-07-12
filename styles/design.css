@@ -223,3 +223,31 @@ height: 396px;
 flex-shrink: 0;
 }   
 
+/*footer design*/
+.footer{
+    background-color:aliceblue;
+}
+.footer-title{
+    font-family: 'Open Sans', sans-serif;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+     font-weight: 700;
+     margin-top: 115px;
+     margin-bottom: 0px;
+}
+.footer-pragraph{
+    color: rgb(141, 141, 141);
+    font-family: Lato;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+.copy{
+    color: rgb(141, 141, 141);
+    font-family: Lato;
+    text-align: center;
+    font-style: normal;
+    font-weight: 40
+}
